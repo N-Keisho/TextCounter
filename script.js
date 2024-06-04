@@ -5,5 +5,5 @@ textBox.addEventListener("input", () => {
     let text = textBox.value;
     text = text.replace(/\s| /g, "");
     text = text.replace('\n', "");
-    count.innerText = text.length;
+    count.innerText = "文字数：" + text.length;
 });
